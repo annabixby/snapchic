@@ -4,6 +4,7 @@
 angular.module('myApp', [
   'ui.bootstrap',
   'ngRoute',
+  'myApp.home',
   'myApp.picker',
   'myApp.uploader',
   'myApp.version'
@@ -11,5 +12,5 @@ angular.module('myApp', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/picker'});
+  $routeProvider.otherwise({redirectTo: '/home'});
 }]);
