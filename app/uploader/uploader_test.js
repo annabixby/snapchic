@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.uploader module', function() {
+describe('snapChicApp.uploader module', function() {
 
-  beforeEach(module('myApp.uploader'));
+  beforeEach(module('snapChicApp.uploader'));
 
   describe('uploader controller', function(){
 

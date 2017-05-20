@@ -1,16 +1,17 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+angular.module('snapChicApp', [
   'ui.bootstrap',
   'ngRoute',
-  'myApp.home',
-  'myApp.picker',
-  'myApp.uploader',
-  'myApp.version'
+  'snapChicApp.home',
+  'snapChicApp.picker',
+  'snapChicApp.uploader',
+  'snapChicApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
   $routeProvider.otherwise({redirectTo: '/home'});
 }]);
+

@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.picker module', function() {
+describe('snapChicApp.picker module', function() {
 
-  beforeEach(module('myApp.picker'));
+  beforeEach(module('snapChicApp.picker'));
 
   describe('picker controller', function(){
 

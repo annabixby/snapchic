@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.picker', ['ngRoute'])
+angular.module('snapChicApp.picker', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/picker', {

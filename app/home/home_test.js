@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.home module', function() {
+describe('snapChicApp.home module', function() {
 
-  beforeEach(module('myApp.home'));
+  beforeEach(module('snapChicApp.home'));
 
   describe('home controller', function(){
 

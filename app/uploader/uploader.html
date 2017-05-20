@@ -1,1 +1,15 @@
-<p>This is the partial for uploader.</p>
+<div class="container">
+    <a class="row" href="#!/home">Back to home</a>
+    <div class="row">
+        <label class="btn btn-primary btn-file">
+            Choose picture <input data-file-upload type="file" name="file" style="display: none;">
+        </label>
+        <!--<input class="btn btn-primary menu-button" data-my-Directive type="file" name="file">-->
+        <p>
+            post request with this data:
+        </p>
+      <pre ng-repeat="(key, value) in fileLog">
+        {{key}} {{ value }}
+      </pre>
+    </div>
+</div>
